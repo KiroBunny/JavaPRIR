@@ -15,4 +15,3 @@ public class Main {
         System.out.println(Watek.licznik.get());
     }
 }
-// Komentarz do synchronizacji w klasie Licznik
