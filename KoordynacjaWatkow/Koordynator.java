@@ -1,7 +1,7 @@
 package KoordynacjaWatkow;
 
 public class Koordynator implements IKoordynator{
-    boolean koniecA = false; // ktory watek ma sie zatrzymac jesli blokada true to znaczy ze teraz ma dzialac
+    boolean koniecA = false; 
     boolean koniecB = false;
 
     @Override
@@ -20,7 +20,7 @@ public class Koordynator implements IKoordynator{
 
     @Override
     synchronized public void startC() throws InterruptedException {
-        while (!(koniecA && koniecB)){ // (!konieA || !koniecB)
+        while (!(koniecA && koniecB)){ 
             this.wait();
         }
     }
