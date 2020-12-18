@@ -2,7 +2,7 @@ package Semafory;
 
 import java.util.concurrent.Semaphore;
 
-// Watki A i B wykonują się równolegle, wątek C czeka i wykuje się samodzielnie
+// Watki A i B wykonują się równolegle, wątek C czeka i wykona się samodzielnie
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
