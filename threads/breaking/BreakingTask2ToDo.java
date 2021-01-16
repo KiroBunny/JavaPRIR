@@ -6,10 +6,6 @@ import java.util.Random;
 
 import static java.lang.Thread.sleep;
 
-/**
- * Zmodyfikuj metodę run w klasie BreakingTask2ToDo tak aby po wystąpieniu przerwaniu wątka, metoda run zakończyła swoją
- * pracę a jednocześnie wypisała na ekranie zawartość mapy
- */
 
 public class BreakingTask2ToDo implements Runnable {
     public static void main(String[] args) throws InterruptedException {
